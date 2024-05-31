@@ -1,0 +1,106 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 79fca254-0162-4367-b8fe-a83626d5747e)
+
+  (paper "A3")
+
+  (title_block
+    (title "Raid Eye Controller")
+    (date "2024-05-30")
+    (rev "V1")
+    (company "Macerick Space")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 165.735 192.405) (size 62.865 24.765) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 27cc3bb3-ee2d-4bac-a3e7-19e17993e52e)
+    (property "Sheetname" "Sensorler" (at 165.735 191.6934 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sensor.kicad_sch" (at 165.735 217.7546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "hecatlon_raid_eye"
+        (path "/79fca254-0162-4367-b8fe-a83626d5747e" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 26.035 193.04) (size 59.055 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4b7b6859-70c4-4565-bdeb-c43031e8977a)
+    (property "Sheetname" "signal" (at 26.035 192.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "signal.kicad_sch" (at 26.035 222.8346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "hecatlon_raid_eye"
+        (path "/79fca254-0162-4367-b8fe-a83626d5747e" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 293.37 189.23) (size 60.96 27.305) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4ef44771-2ad7-4849-963d-d8034a6b6180)
+    (property "Sheetname" "islemci" (at 293.37 188.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "islemci.kicad_sch" (at 293.37 217.1196 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "hecatlon_raid_eye"
+        (path "/79fca254-0162-4367-b8fe-a83626d5747e" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 233.68 190.5) (size 56.515 27.305) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 74114961-ccf7-4d45-948d-4546d322e8c7)
+    (property "Sheetname" "ikazlar" (at 233.68 189.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ikazlar.kicad_sch" (at 233.68 218.3896 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "hecatlon_raid_eye"
+        (path "/79fca254-0162-4367-b8fe-a83626d5747e" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 90.17 193.04) (size 69.215 28.575) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cf45454e-14d3-487d-bc4d-a4381846be55)
+    (property "Sheetname" "Power" (at 90.17 192.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 90.17 222.1996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "hecatlon_raid_eye"
+        (path "/79fca254-0162-4367-b8fe-a83626d5747e" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
